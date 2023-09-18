@@ -32,12 +32,12 @@ main: #简历主要内容，
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 布伦瑞克工业大学
     duration: "2017年10月 - 2022年9月"
-    sub: 德国，布伦瑞克
+    sub: 德国，下萨克森
     detail: 电气工程硕士（机械电子及能源科学方向）
   - title: 南京理工大学
     duration: "2011年10月 - 2015年9月"
     sub: 中国，江苏
-    detail: 电气工程及其自动化学士（电力系统及电力电子方向）英语学士双学位
+    detail: 电气工程及其自动化学士（电力系统及电力电子方向）  英语学士双学位
 
 
 - type: experience
@@ -54,7 +54,7 @@ main: #简历主要内容，
     detail: 电动汽车停车机器人项目； 短距离运输型便携式滑板机器人项目； 电动汽车自动充电机器人项目
     # open: open
     #可以设置open默认展开
-  - title: 生产自动化工业机器人人机协作安全开发与应用
+  - title: 工业机器人人机协作安全开发与应用
     sub: 德国大众总公司生产自动化部门 
     duration: "2018年09月 - 2019年02月"
     tags: 
@@ -67,50 +67,78 @@ main: #简历主要内容，
 - type: projects
   name: "项目经验"
   content:
+  - title: 基于工业机器人的自动铺带程序模拟训练环境的建模及仿真设计
+    duration: "2021年09月 - 2022年04月"
+    tags: 
+    - ATL
+    - Simulation
+    - Machine learning
+    detail: 开发设计模拟培训环境，用于预测自动铺带过程中的凝结系数。以红外线辐射器将作为胶带和预浸带的加热系统，对胶带铺设过程进行建模和仿真，使用机器学习算法为该过程创建一个尽可能精确的模拟训练环境。
   - title: 3D打印制作核桃夹子
     duration: "2019年03月 - 2019年07月"
     tags: 
     - 3D-Print
     - FDM
     - SLA
-    detail: 通过3D打印工艺对核桃钳部进行建模和制造；调整打印参数，消除打印误差，优化制造工艺
+    detail: 1. 通过3D打印工艺对核桃钳部进行建模和制造
+            2. 调整打印参数，消除打印误差，优化制造工艺
     #sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
+  - title: 乐高机器人微机控制
+    duration: "2019年03月 - 2019年07月"
+    tags: 
+    - Microcontroller
+    - C
+    - UART
+    detail: 1. 乐高EV3机器人与微控制器之间蓝牙接口与功能显示设计
+            2. 用 C 语言编写机器人运动指令
+   - title: 基于 LabVIEW 仿真平台的燃料电池测控系统研究
+    duration: "2014年10月 - 2015年06月"
+    tags: 
+    - PEMFC
+    - PID, Fuzzy Control
+    - LabVIEW
+    detail: 使用微控制器 PIC18F2580 为燃料电池设计测量和控制系统，通过确立其与控制系统间的数据传输通信协议，设计基于 PID 和模糊逻辑的控制系统，并在 LabVIEW 仿真环境中对不同的控制方法进行比较。          
+ # - title: Project Name
+  #  summary: Projects' introduction or summary
+  #  detail:
+  #    md: _data/demo.md
+  #  sub: Creator and maintainer.
    #可继续添加更多内容
 
 - type: skills
-  # name: "实习经历"
-  content:
-  - title: 电动汽车自动服务机器人
-    duration: "2020年02月 - 2020年12月"
+  name: "技能"
+  content: 
+  - title: 工程能力
     items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+    - Python
+    - C++
+    - Github
+    - Matlab
+    detail: 掌握Python及C++编程语言，熟练使用微软办公软件及LATEX，XMind等应用工具
+  - title: 语言
+    summary:
+    - 德语（C1，德福17）
+    - 英语（双学士学位，CET-6，TEM-4）
 
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
   name: '其他'
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
+  #- 单行文字
+  - title: "奖项荣誉:"
+    text: 优秀毕业生（10%）；一等奖学金；优秀学生助理；
+  - title: "志愿活动:"
     items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+    - 寄宿家庭志愿者
+    - 南京青运会志愿者
+  - title: 兴趣
+    items: 
+    - 拳击协会，八极拳
+    - 音乐，越剧
+    #list:
+    #- 第一项
+    #- 第二项
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
