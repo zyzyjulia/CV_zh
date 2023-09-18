@@ -5,84 +5,94 @@ title: "简历标题"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "朱羽"
 jobtitle: "售后工程师" #可空不显示
-photo: "assets/img/photo.jpg" #照片可空，不显示
+photo: "assets/img/bilderh.jpg" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
-- text: "youremail@example.com" #文本内容
-  href: 'mailto:youremail@example.com' #链接，无链接则空  
+- text: "yu.zhu.work@outlook.com" #文本内容
+  href: 'mailto:yu.zhu.work@outlook.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
-- text: "1234567890"
-  href: 'tel:1234567890'
+- text: "+4915736797772"
+  href: 'tel:+4915736797772'
   icon: 'icons/phone.svg'
-- text: "your-website.com"
-  href: 'http://your-website.com'
+- text: "zyzyjulia.github.io"
+  href: 'https://zyzyjulia.github.io/'
   icon: 'icons/web.svg'
-- text: "GitHubID"
-  href: 'https://github.com/NewFuture'
-  icon: "icons/github.svg"
-  attr: 'target="_blank"' #新标签页打开
+#- text: "GitHubID"
+ # href: 'https://github.com/NewFuture'
+ # icon: "icons/github.svg"
+ # attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
   #   icon: "icons/location.svg"
 
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
+  name: 教育背景 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+  - title: 布伦瑞克工业大学
+    duration: "2017年10月 - 2022年9月"
+    sub: 德国，布伦瑞克
+    detail: 电气工程硕士（机械电子及能源科学方向）
+  - title: 南京理工大学
+    duration: "2011年10月 - 2015年9月"
+    sub: 中国，江苏
+    detail: 电气工程及其自动化学士（电力系统及电力电子方向）英语学士双学位
 
-- type: skills
-  # name: "技能"
-  content:
-  - title: 编程语言
-    items: #itmems 可以小块的方式显示
-    - 汉语
-    - 语言2
-    - 语言3
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
 
 - type: experience
-  name: 经验
+  name: "实习经历"
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
+  - title: 电动汽车移动自服务机器人项目研究与应用
+    sub: 德国大众总公司研发中心
+    duration: "2020年02月 - 2020年12月"
     tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
+    - ROS
+    - Python
+    - C++
+    summary: 移动机器人嵌入式系统软件与硬件接口设计； 移动机器人项目功能开发； 驱动模块的调试和参数设置
+    detail: 电动汽车停车机器人项目； 短距离运输型便携式滑板机器人项目； 电动汽车自动充电机器人项目
     # open: open
     #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
+  - title: 生产自动化工业机器人人机协作安全开发与应用
+    sub: 德国大众总公司生产自动化部门 
+    duration: "2018年09月 - 2019年02月"
     tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - Robotstudio
+    - MRK
+    - ABB Roboter
+    summary: 人机协作安全概念设计与应用； ABB工业机器人路径规划与数据测试
+    detail: 在无碰撞模式下测量评估人机协作最小安全距离与最短安全时间，以优化机器人最佳进停路径
 
 - type: projects
-  name: Projects
+  name: "项目经验"
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
+  - title: 3D打印制作核桃夹子
+    duration: "2019年03月 - 2019年07月"
+    tags: 
+    - 3D-Print
+    - FDM
+    - SLA
+    detail: 通过3D打印工艺对核桃钳部进行建模和制造；调整打印参数，消除打印误差，优化制造工艺
+    #sub: 维护者
   - title: Project Name
     summary: Projects' introduction or summary
     detail:
       md: _data/demo.md
     sub: Creator and maintainer.
    #可继续添加更多内容
+
+- type: skills
+  # name: "实习经历"
+  content:
+  - title: 电动汽车自动服务机器人
+    duration: "2020年02月 - 2020年12月"
+    items: #itmems 可以小块的方式显示
+    - 汉语
+    - 语言2
+    - 语言3
+  - title: Skill Group
+    summary: Consectetur, Adipiscing, Elit
 
 #others 其他简略内容(列表)
 others: #其他列表显示
