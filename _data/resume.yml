@@ -80,7 +80,7 @@ main: #简历主要内容，
     - 3D-Print
     - FDM
     - SLA
-    detail: 
+    items: 
     - 1. 通过3D打印工艺对核桃钳部进行建模和制造
     - 2. 调整打印参数，消除打印误差，优化制造工艺
     #sub: 维护者
@@ -90,7 +90,7 @@ main: #简历主要内容，
     - Microcontroller
     - C
     - UART
-    detail: 
+    items: 
     - 1. 乐高EV3机器人与微控制器之间蓝牙接口与功能显示设计
     - 2. 用 C 语言编写机器人运动指令
   - title: 基于 LabVIEW 仿真平台的燃料电池测控系统研究
@@ -116,6 +116,9 @@ main: #简历主要内容，
     - C++
     - Github
     - Matlab
+    - Visual Studio
+    - LabVIEW
+    - Microsoft 365
     summary: 掌握Python及C++编程语言，熟练使用微软办公软件及LATEX，XMind等应用工具
   - title: 语言
     summary:
@@ -128,12 +131,11 @@ others: #其他列表显示
   name: '其他'
   content: #选择需要的格式
   #- 单行文字
-  - title: "奖项荣誉:  "
-    items: 
-    - 优秀毕业生（10%）； 一等奖学金； 优秀学生助理；
+  - title: 奖项荣誉：
+    detail: 优秀毕业生（10%）， 一等奖学金， 优秀学生助理
   - title: "志愿活动:  "
     items: #单行列表
-    - 寄宿家庭志愿者;  南京青运会志愿者
+    - 寄宿家庭志愿者， 南京青运会志愿者
   - title: "兴趣:  "
     items: 
     - 拳击协会成员，八极拳, 越剧
