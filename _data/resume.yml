@@ -80,8 +80,9 @@ main: #简历主要内容，
     - 3D-Print
     - FDM
     - SLA
-    detail: 1. 通过3D打印工艺对核桃钳部进行建模和制造
-            2. 调整打印参数，消除打印误差，优化制造工艺
+    list: 
+    - 通过3D打印工艺对核桃钳部进行建模和制造
+    - 调整打印参数，消除打印误差，优化制造工艺
     #sub: 维护者
   - title: 乐高机器人微机控制
     duration: "2019年03月 - 2019年07月"
@@ -109,12 +110,12 @@ main: #简历主要内容，
   name: "技能"
   content: 
   - title: 工程能力
-    items: #itmems 可以小块的方式显示
+    tags: #itmems 可以小块的方式显示
     - Python
     - C++
     - Github
     - Matlab
-    detail: 掌握Python及C++编程语言，熟练使用微软办公软件及LATEX，XMind等应用工具
+    summary: 掌握Python及C++编程语言，熟练使用微软办公软件及LATEX，XMind等应用工具
   - title: 语言
     summary:
     - 德语（C1，德福17）
@@ -126,13 +127,13 @@ others: #其他列表显示
   name: '其他'
   content: #选择需要的格式
   #- 单行文字
-  - title: "奖项荣誉:"
-    text: 优秀毕业生（10%）；一等奖学金；优秀学生助理；
-  - title: "志愿活动:"
+  - title: "奖项荣誉: "
+    summary: 优秀毕业生（10%）；一等奖学金；优秀学生助理；
+  - title: "志愿活动: "
     items: #单行列表
     - 寄宿家庭志愿者
     - 南京青运会志愿者
-  - title: 兴趣
+  - title: "兴趣: "
     items: 
     - 拳击协会成员，八极拳
     - 音乐，越剧
